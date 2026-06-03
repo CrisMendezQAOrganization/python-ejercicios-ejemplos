@@ -1,2 +1,2 @@
-# python-ejercicios-ejemplos
-Python ejercicios y ejemplos
+# python-bqa
+Python
