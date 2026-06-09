@@ -1,5 +1,5 @@
 #Pedir una cantidad en euros
-euros = float(input("Cantidad en euros: "))
+euros = float(input("Cantidad en euros:"))
 
 #Función recibir euros y devolver en dólares (1 euros = 1.1 dólares)
 def euros_a_dolares(euros):
@@ -16,6 +16,6 @@ dolares = euros_a_dolares(euros)
 libras = euros_a_libras(euros)
 
 print("Euros:", euros)
-print("Dólares: ", dolares)
-print("Libras: ", libras)
+print("Dólares:", dolares)
+print("Libras:", libras)
     
