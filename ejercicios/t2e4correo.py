@@ -4,12 +4,6 @@ email = input("Introduce un correo electrónico: ")
 #Obtenemos el número de letras del email
 longitud = len(email)
 
-#Email en mayúsculas
-emailmayusculas = email.upper()
-
-#Email en minúsculas
-emailminusculas = email.lower()
-
 #Imprimimos la palabra
 print(email)
 
@@ -17,7 +11,7 @@ print(email)
 print("Longitud", longitud)
 
 #Imprimir cadena en mayúsculas
-print(emailmayusculas)
+print("Correo en mayúsculas:", email.upper())
 
 #Imprimir la cadena en minúsculas
-print(emailminusculas)
+print("Correo en minúsculas:", email.lower())
