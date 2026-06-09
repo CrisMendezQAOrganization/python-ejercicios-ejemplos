@@ -17,7 +17,7 @@ iva = total_compra * 0.21
 #Precio final
 precio_final = iva + total_compra
 
-# Mostrar resultados
+#Mostrar resultados
 print("Total sin IVA: ", total_compra)
 print("IVA: ", iva)
 print("Precio final: ", precio_final)
