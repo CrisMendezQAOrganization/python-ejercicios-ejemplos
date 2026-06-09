@@ -9,11 +9,9 @@ suma = numero1 + numero2
 resta = numero1 - numero2
 multiplicacion = numero1 * numero2
 division= numero1 / numero2
-media = (numero1 + numero2) / 2
 
 #Imprimimos los resultados
 print("Suma", suma)
 print("Resta", resta)
 print("Multiplicación", multiplicacion)
 print("División", division)
-print("Media", media)
