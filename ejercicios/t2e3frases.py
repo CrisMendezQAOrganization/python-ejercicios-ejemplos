@@ -4,20 +4,15 @@ frase = input("Introduce una frase: ")
 #Obtenemos el número de letras de la frase
 longitud = len(frase)
 
-#Frase en mayúsculas
-frasemayusculas = frase.upper()
-
-#Frase en minúsculas
-fraseminusculas = frase.lower()
 
 #Imprimimos la palabra
 print(frase)
 
 #Imprimimos la longitud (al ser un número no puede ir solo)
-print("Longitud", longitud)
+print("Longitud de la frase", longitud)
 
 #Imprimir cadena en mayúsculas
-print(frasemayusculas)
+print("La frase en mayúsculas es: ", frase.upper())
 
 #Imprimis la cadena en minúsculas
-print(fraseminusculas)
+print("La frase en minúsculas es: ", frase.lower())
