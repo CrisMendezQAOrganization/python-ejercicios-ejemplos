@@ -1,5 +1,6 @@
 #Crear función que reciba un color y devuelva un mensaje según el color elegido
 def color(colorelegido):
+
     if (colorelegido == "rojo"):
         mensaje = "Pasión y energía"
     elif (colorelegido == "verde"):
