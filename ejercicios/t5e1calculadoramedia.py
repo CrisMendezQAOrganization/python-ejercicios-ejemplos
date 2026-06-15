@@ -3,6 +3,7 @@ def calcular_media():
     cantidad = int(input("¿Cuántas notas deseas introducir?: "))
     suma = 0
 
+#el += forma en programación estándar de sumar 
     for i in range(cantidad):
         nota = float(input(f"Introduce la nota {i + 1}: "))
         suma += nota
